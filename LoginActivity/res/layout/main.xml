@@ -35,7 +35,9 @@
                     android:layout_centerHorizontal="true"
                     android:singleLine="true"
                     android:textColor="#ffffff"
-                    android:textSize="18sp" android:gravity="center_vertical|center_horizontal"/>
+                    android:textSize="18sp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="#00ffffff"/>
         </RelativeLayout>
 
         <RelativeLayout
@@ -57,7 +59,46 @@
                     android:layout_centerHorizontal="true"
                     android:singleLine="true"
                     android:textColor="#ffffff"
-                    android:textSize="18sp" android:gravity="center_vertical|center_horizontal"/>
+                    android:textSize="18sp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="#00ffffff"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:id="@+id/rl_login"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_below="@id/rl_passworld"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginTop="0dp">
+            <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/login"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/button_login"
+            />
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/rl_register"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_below="@id/rl_login"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginTop="0dp">
+            <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/register"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/button_register"
+            />
         </RelativeLayout>
 
     </RelativeLayout>
